@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getAllPosts } from "@/lib/posts";
+import Subscribe from "@/components/subscribe";
 
 const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "Your Name";
 const SITE_TAGLINE =
@@ -75,6 +76,8 @@ export default function Home() {
           </ul>
         )}
       </section>
+
+      <Subscribe />
     </div>
   );
 }
