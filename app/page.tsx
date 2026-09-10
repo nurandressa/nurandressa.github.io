@@ -3,7 +3,7 @@ import { getAllPosts } from "@/lib/posts";
 
 const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "Your Name";
 const SITE_TAGLINE =
-  process.env.NEXT_PUBLIC_SITE_TAGLINE || "Student, learner";
+  process.env.NEXT_PUBLIC_SITE_TAGLINE || "Learner, teacher.";
 const SITE_BIO =
   process.env.NEXT_PUBLIC_SITE_BIO ||
   "I write about the thing I am learning and exploring in life.";
