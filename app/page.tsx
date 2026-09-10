@@ -28,8 +28,7 @@ export default function Home() {
   return (
     <div className="space-y-16">
       <section>
-        <h1 className="text-2xl font-bold mb-2">{SITE_NAME}</h1>
-        <p className="text-[var(--muted)]">{SITE_TAGLINE}</p>
+        <p className="text-lg">{SITE_TAGLINE}</p>
         <p className="mt-4 max-w-xl text-[var(--muted)]">{SITE_BIO}</p>
         <div className="mt-5 font-mono text-xs flex flex-wrap gap-x-4 gap-y-2">
           {SOCIAL_LINKS.map(
