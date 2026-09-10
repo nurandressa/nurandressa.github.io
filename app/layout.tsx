@@ -38,6 +38,9 @@ export default function RootLayout({
                 <Link href="/" className="hover:text-[var(--text)] transition-colors">
                   home
                 </Link>
+                <Link href="/blog/" className="hover:text-[var(--text)] transition-colors">
+                  blog
+                </Link>
                 <Link href="/feed.xml" className="hover:text-[var(--text)] transition-colors">
                   rss
                 </Link>
