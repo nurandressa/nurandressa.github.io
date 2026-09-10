@@ -6,12 +6,17 @@ const SITE_TAGLINE =
   process.env.NEXT_PUBLIC_SITE_TAGLINE || "Learner, teacher.";
 const SITE_BIO =
   process.env.NEXT_PUBLIC_SITE_BIO ||
-  "I write about the thing I am learning and exploring in life.";
+  "I write about the things I am learning and exploring in life.";
 
 const SOCIAL_LINKS = [
-  { label: "github", url: process.env.NEXT_PUBLIC_GITHUB_URL || "https://github.com/yourusername" },
-  { label: "twitter", url: process.env.NEXT_PUBLIC_TWITTER_URL || "https://x.com/yourusername" },
-  { label: "email", url: process.env.NEXT_PUBLIC_EMAIL_URL || "mailto:you@example.com" },
+  {
+    label: "github",
+    url: process.env.NEXT_PUBLIC_GITHUB_URL || "https://github.com/nurandressa",
+  },
+  {
+    label: "email",
+    url: process.env.NEXT_PUBLIC_EMAIL_URL || "mailto:nurandressa@gmail.com",
+  },
 ];
 
 export const dynamic = "force-static";
@@ -37,7 +42,7 @@ export default function Home() {
                 >
                   {link.label}↗
                 </a>
-              )
+              ),
           )}
         </div>
       </section>
