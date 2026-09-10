@@ -3,10 +3,10 @@ import { getAllPosts } from "@/lib/posts";
 
 const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "Your Name";
 const SITE_TAGLINE =
-  process.env.NEXT_PUBLIC_SITE_TAGLINE || "Software engineer, writer.";
+  process.env.NEXT_PUBLIC_SITE_TAGLINE || "Student, learner";
 const SITE_BIO =
   process.env.NEXT_PUBLIC_SITE_BIO ||
-  "I write about software, minimalism, and the web.";
+  "I write about the thing I am learning and exploring in life.";
 
 const SOCIAL_LINKS = [
   { label: "github", url: process.env.NEXT_PUBLIC_GITHUB_URL || "https://github.com/yourusername" },
